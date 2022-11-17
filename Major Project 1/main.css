@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .img1{
+    background: url("./Images/Image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
