@@ -7,27 +7,27 @@
 }
 .img1{
     height: 70vh;
-    background-image: url("../images/images6.jpg");
+    background-image: url("./photo/images6.jpg");
     border-radius: 10px;
 }
 .img2{
     height: 70vh;
-    background-image: url("../images/images2.jpg");
+    background-image: url("./photo/images2.jpg");
     border-radius: 10px;
 }
 .img3{
     height: 70vh;
-    background-image: url("../images/images7.jpg");
+    background-image: url("./photo/images3.jpg");
     border-radius: 10px;
 }
 .img4{
     height: 70vh;
-    background-image: url("../images/images4.jpg");
+    background-image: url("./photo/images4.jpg");
     border-radius: 10px;
 }
 .img5{
     height: 70vh;
-    background-image: url("../images/images5.jpg");
+    background-image: url("./photo/images5.jpg");
     border-radius: 10px;
 }
 

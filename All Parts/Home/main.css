@@ -53,3 +53,54 @@
     width: 90%;
   }
 }
+
+.margin-header{
+  padding-top: 5rem;
+}
+.img1{
+  height: 70vh;
+  background-image: url("./images/images6.jpg");
+  border-radius: 10px;
+}
+.img2{
+  height: 70vh;
+  background-image: url("./images/images2.jpg");
+  border-radius: 10px;
+}
+.img3{
+  height: 70vh;
+  background-image: url("./images/images3.jpg");
+  border-radius: 10px;
+}
+.img4{
+  height: 70vh;
+  background-image: url("./images/images4.jpg");
+  border-radius: 10px;
+}
+.img5{
+  height: 70vh;
+  background-image: url("./images/images5.jpg");
+  border-radius: 10px;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container{
+  text-align: center;
+}
+.bg-secondary{
+  opacity: 0.9;
+}
+
+.products > p > a:hover,
+.products > p > a:active{
+    text-decoration: none;
+}
+
+.ft-bg{
+    background: #45526e;
+}
