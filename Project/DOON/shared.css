@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .nav-text > ul > li > a {
+    color: #232121c9;
+  }
+  
+  .nav-bg {
+    background: white;
+    opacity: 0.7;
+  }
+  .active{
+    background: #45526e;
+  }
+  .products > p > a:hover,
+.products > p > a:active{
+    text-decoration: none;
+}
+
+.ft-bg{
+    background: #45526e;
+}
+

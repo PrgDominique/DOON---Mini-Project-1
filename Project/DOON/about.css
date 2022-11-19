@@ -1,0 +1,39 @@
+.card{
+    position: absolute;
+    text-align: center;
+}
+@media screen and (max-width:619px) {
+    .card{
+        top: 30%;
+    }
+}
+
+@media screen and (min-width:620px) {
+    .card{
+        width: 30rem;
+        top: 20%;
+    }
+    iframe{
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .card{
+        width: 40rem;
+        top: 20%;
+    }
+    iframe{
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .card{
+        width: 50rem;
+        top: 18%;
+    }
+    iframe{
+        height: 40rem;
+    }
+}
