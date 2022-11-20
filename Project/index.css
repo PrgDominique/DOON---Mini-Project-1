@@ -22,7 +22,9 @@
 
 .hover:hover,
 .hover:active {
-  color: black;
+  background: #45526e;
+  opacity: 0.5;
+  color: white;
 }
 
 .head-content {

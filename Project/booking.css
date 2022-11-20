@@ -1,0 +1,49 @@
+.card{
+    position: relative;
+    text-align: center;
+    
+}
+
+@media screen and (min-width: 992px) {
+    .card{
+        top: 200px;
+    
+    }
+    .btn-plan{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .card{
+        top: 200px;
+        margin: 30px;
+    
+    }
+    .btn-plan{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 576px) {
+    .card{
+        top: 200px;
+        margin: 30px;
+    
+    }
+    .btn-plan{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 575px) {
+    .card{
+        top: 200px;
+        margin: 30px;
+    
+    }
+    .btn-plan{
+        width: 100%;
+    }
+    
+}

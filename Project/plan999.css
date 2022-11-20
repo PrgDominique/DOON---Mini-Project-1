@@ -1,0 +1,70 @@
+.card {
+  position: relative;
+  text-align: center;
+}
+
+.btn-plan {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    .card {
+      top: 200px;
+      
+    }
+   
+    
+    
+    #desktop {
+      display: none;
+    }
+    
+  }
+
+@media screen and (min-width: 992px) {
+  .card {
+    top: 200px;
+  }
+  .plan-description{
+    top: 300px;
+  }
+  .btn-plan {
+    height: 5rem;
+  }
+  
+  #mobile {
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  .cs-box {
+    top: 200px;
+  }
+
+  .btn-plan {
+    height: 5rem;
+  }
+ 
+ 
+ 
+}
+@media screen and (min-width: 576px) {
+    .cs-box {
+        top: 200px;
+      }
+    
+      .btn-plan {
+        height: 5rem;
+      }
+}
+@media screen and (max-width: 575px) {
+    .cs-box {
+        top: 200px;
+      }
+    
+      .btn-plan {
+        height: 5rem;
+      }
+  
+}

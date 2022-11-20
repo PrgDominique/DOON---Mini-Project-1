@@ -22,3 +22,9 @@
     background: #45526e;
 }
 
+.hover:hover,
+.hover:active {
+  background: #45526e;
+  opacity: 0.5;
+  color: white;
+}
