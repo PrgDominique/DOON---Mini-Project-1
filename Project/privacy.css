@@ -1,0 +1,46 @@
+.card{
+    position: absolute;
+    text-align: center;
+}
+@media screen and (max-width:575px) {
+    .card{
+        top: 20%;
+        
+    }
+    
+}
+
+@media screen and (min-width:576px) {
+    .card{
+        width: 30rem;
+        top: 20%;
+    }
+    .fs{
+        font-size: 20px;
+    }
+    
+   
+}
+
+@media screen and (min-width:768px) {
+    .card{
+        width: 40rem;
+        top: 20%;
+    }
+    .fs{
+        font-size: 25px;
+    }
+    
+   
+}
+
+@media screen and (min-width:992px) {
+    .card{
+        width: 50rem;
+        top: 18%;
+    }
+    .fs{
+        font-size: 25px;
+    }
+    
+}
