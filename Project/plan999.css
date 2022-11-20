@@ -2,84 +2,80 @@
   position: relative;
   text-align: center;
 }
-.valid1{
-    position: relative;
-    text-align: center;
+.valid1 {
+  position: relative;
+  text-align: center;
 }
 
 .btn-plan {
-    width: 100%;
-  }
-.plan-description{
-    border: solid 5px gray;
+  width: 100%;
 }
-  .plan-description:hover,
-  .plan-description:active{
-    border-color:red;
-  }
-  @media screen and (max-width: 992px) {
+.plan-description {
+  border: solid 5px gray;
+}
+.plan-description:hover,
+.plan-description:active {
+  border-color: red;
+}
+@media screen and (max-width: 992px) {
+    .valid1 {
+        top: 430px;
+        border-radius: 10px;
+      }
     .card {
-      top: 200px;
-      
-    }
-   
-    
-    
-    #desktop {
-      display: none;
-    }
-    
+    top: 250px;
+    margin-top: 50px;
   }
+  #desktop {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 992px) {
-    .valid1{
-        top: 400px;
+  .valid1 {
+    top: 400px;
     border-radius: 10px;
-
-    }
+  }
   .card {
     top: 200px;
   }
-  .plan-description{
+  .plan-description {
     top: 300px;
   }
-  .btn-plan {
-    height: 5rem;
-  }
-  
   #mobile {
     display: none;
   }
-  
 }
 @media screen and (min-width: 768px) {
   .cs-box {
-    top: 200px;
+    top: 180px;
   }
 
   .btn-plan {
     height: 5rem;
   }
- 
- 
- 
 }
 @media screen and (min-width: 576px) {
-    .cs-box {
-        top: 200px;
-      }
-    
-      .btn-plan {
-        height: 5rem;
-      }
+  .cs-box {
+    top: 180px;
+  }
+
+  .btn-plan {
+    height: 5rem;
+  }
 }
 @media screen and (max-width: 575px) {
-    .cs-box {
-        top: 200px;
-      }
-    
-      .btn-plan {
-        height: 5rem;
-      }
-  
+  .cs-box {
+    top: 140px;
+  }
+  .plan-description-m{
+    top: 170px;
+  }
+  .plan-description-n{
+    top: 185px;
+  }
+  .btn-plan {
+    height: 5rem;
+  }
+
 }
