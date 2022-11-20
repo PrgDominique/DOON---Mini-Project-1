@@ -2,11 +2,21 @@
   position: relative;
   text-align: center;
 }
+.valid1{
+    position: relative;
+    text-align: center;
+}
 
 .btn-plan {
     width: 100%;
   }
-
+.plan-description{
+    border: solid 5px gray;
+}
+  .plan-description:hover,
+  .plan-description:active{
+    border-color:red;
+  }
   @media screen and (max-width: 992px) {
     .card {
       top: 200px;
@@ -22,6 +32,11 @@
   }
 
 @media screen and (min-width: 992px) {
+    .valid1{
+        top: 400px;
+    border-radius: 10px;
+
+    }
   .card {
     top: 200px;
   }

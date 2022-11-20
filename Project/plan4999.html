@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
     <link rel="stylesheet" href="shared.css">
-    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="plan999.css">
    
     <title>DOON</title>
   </head>
@@ -76,12 +76,14 @@
 </div>
 
 <!-- background -->
-<div class="vh-100 bg-dark">
+
+<div class="vh-100 bg-dark" id="desktop">
     <!-- Content -->
+    <!-- When width lower 992px it will invisible-->
     <div class="container">
         <div class="row">
         <div class="col-lg-4">
-    <div class="card">
+    <div class="card card-title">
         <div class="card-body">
             <a href="plan999.html"><button class="btn btn-outline-secondary btn-plan fs-3">PLAN 999</button></a>
       
@@ -91,7 +93,7 @@
 </div>
 
 <div class="col-lg-4">
-    <div class="card">
+    <div class="card card-title">
         <div class="card-body">
             <a href="plan1999.html"><button class="btn btn-outline-secondary btn-plan fs-3">PLAN 1999</button></a>
       
@@ -101,20 +103,170 @@
 </div>
 
 <div class="col-lg-4">
-    <div class="card">
+    <div class="card card-title">
         <div class="card-body">
-            <a href="plan4999.html"><button class="btn btn-outline-secondary btn-plan fs-3">PLAN 4999</button></a>
+            <a href="#"><button class="btn btn-secondary btn-plan fs-3">PLAN 4999</button></a>
       
     </div>
   </div>
   <!--Column-->
 </div>
-  <!--Card Row-->
+        <div class="col-lg-6">
+    <div class="card plan-description">
+        <div class="card-title">
+          <h1>PLAN 4999</h1>
+    </div>
+    <div class="card-body">
+        <h3>WIFI ONLY</h3>
+        <h3>1500Mbps Fixed</h3>
+        <h3>Latest Router supported upto 5GB internet speed </h3>
+        <h3>Unlimited Call To All Network</h3>
+        <h3>VIP Customer Support 24/7</h3>
+
+    </div>
+
+    </div>
+
+    <!--Column-->
+    </div>
+
+    <div class="col-lg-6">
+        <div class="card plan-description ">
+            <div class="card-title">
+          <h1>PLAN 4999</h1>
+        </div>
+        <div class="card-body">
+        <h3>WIFI + MONTHLY DATA</h3>
+        <h3>1000Mbps Fixed</h3>
+        <h3>Latest Router supported upto 5GB internet speed </h3>
+        <h3>500GB Monthly Data </h3>
+        <h3>Unlimited Call To All Network</h3>
+        <h3>VIP Customer Support 24/7</h3>
+
+        </div>
+        </div>
+        <!--Column-->
+        </div>
+    <!--Row and container-->
+
+    <form class="row g-3 needs-validation valid1 bg-light" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01"  required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02"  required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Complete address</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Choose Plan</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>WIFI ONLY</option>
+            <option>WIFI + MONTHLY DATA</option>
+
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div>
+    </div>
+
+    
+<!--Desktop end-->
 </div>
-  <!--Card Container-->
+<div class="vh-100 bg-dark" id="desktop">
+    
+  </div>
+  <!--Column-->
 </div>
-<!--end of background -->
+
+<!--Row and container-->
 </div>
+</div>
+
+</div>
+
+
+<!--Carousel-->
+<div class="vh-100 bg-dark" id="mobile">
+    <div class="container ">
+        <div id="slide" class="carousel slide cs-box" data-bs-interval="false">
+            <div class="carousel-inner ">
+              <div class="carousel-item active bg-light">
+                <a href="plan999.html"><button class="btn btn-outline-secondary btn-plan fs-3">PLAN 999</button></a>
+              </div>
+              <div class="carousel-item bg-light">
+                <a href="plan1999.html"><button class="btn btn-outline-secondary btn-plan fs-3">PLAN 1999</button></a>
+              </div>
+              <div class="carousel-item bg-light">
+                <a href="#"><button class="btn btn-secondary btn-plan fs-3">PLAN 4999</button></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#slide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#slide" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+</div>
+
+<div class="vh-100 bg-dark" id="mobile">
+
+</div>
+
+
   
     <div class="container-fluid px-0">
         <!-- Footer -->
@@ -245,6 +397,7 @@
         <!-- Footer -->
       </div>
   </div>
+  
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
