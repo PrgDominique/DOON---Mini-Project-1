@@ -1,0 +1,59 @@
+.card{
+    position: relative;
+    text-align: center;
+}
+.msg{
+    background: #0D4C92;
+}
+.msg:hover{
+    background: #25316D;
+}
+@media screen and (max-width:575px) {
+    .card{
+    
+        top: 120px;
+    }
+    .msg{
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .card{
+    
+        top: 120px;
+    }
+    .msg{
+        font-size: 20px;
+        margin: 15px;
+    }
+    
+   
+}
+
+@media screen and (min-width:768px) {
+    .card{
+    
+        top: 120px;
+    }
+    .msg{
+        font-size: 25px;
+        margin: 15px;
+    }
+    
+   
+}
+
+@media screen and (min-width:992px) {
+    .card{
+     
+        top: 200px;
+    }
+    .msg{
+        font-size: 25px;
+      
+    }
+
+    
+}
