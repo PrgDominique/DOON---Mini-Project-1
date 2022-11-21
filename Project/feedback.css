@@ -1,0 +1,42 @@
+.card{
+    position: relative;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .card{
+        top: 45%;
+    }
+   .mobile{
+    height: 70vh;
+   }
+}
+
+@media screen and (min-width:576px) {
+    .card{
+        top: 45%;
+    }
+   .mobile{
+    height: 90vh;
+   }
+}
+
+@media screen and (min-width:768px) {
+    .card{
+        
+        top: 35%;
+    }
+   .mobile{
+    height: 120vh;
+   }
+}
+
+@media screen and (min-width:992px) {
+    .card{
+       
+        top: 200px;
+    }
+   
+}
