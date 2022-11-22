@@ -38,5 +38,8 @@
        
         top: 200px;
     }
+    .mobile{
+        display: none;
+    }
    
 }

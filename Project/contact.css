@@ -1,80 +1,71 @@
-.card{
-    position: relative;
-    text-align: center;
+.card {
+  position: relative;
+  text-align: center;
 }
-.msgr{
-    background: url("https://cdn.nerdschalk.com/wp-content/uploads/2020/08/add-custom-background-messenger-rooms-759x427.png?width=600");
-    background-position: center;
-    background-repeat: no-repeat;
-
-    
+.msgr {
+  background: url("https://cdn.nerdschalk.com/wp-content/uploads/2020/08/add-custom-background-messenger-rooms-759x427.png?width=600");
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.twtr{
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTiHufa3mIEGrrgUygzekxTxe27Cv2SEzEF8AImgCwQtA42YfZzoljNCdgmzwYQQAWSPc&usqp=CAU");
-    color: black;
-    background-position: center;
-    background-repeat: no-repeat;
+.twtr {
+  background: url("./twitter.jpg");
+  color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.insta{
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6TNmrdCA6X6BCmHsmvC9wAUjim9md8lnJ0g&usqp=CAU");
-    background-position: center;
-    background-repeat: no-repeat;
-    color: black;
-
+.insta {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6TNmrdCA6X6BCmHsmvC9wAUjim9md8lnJ0g&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
 }
-.msg:hover{
-    background: #25316D;
-    color: white;
+.msg:hover {
+  background: #25316d;
+  color: white;
 }
-@media screen and (max-width:575px) {
-    .card{
-    
-        top: 120px;
-    }
-    .msg{
-        font-size: 20px;
-        margin: 15px;
-    }
-    .m-360px{
-        height: 50vh;
-    }
+@media screen and (max-width: 570px) {
+  .card {
+    top: 120px;
+  }
+  .msg {
+    font-size: 20px;
+    margin: 15px;
+  }
+  .m-360px {
+    height: 50vh;
+  }
 }
 
-@media screen and (min-width:576px) {
-    .card{
-    
-        top: 120px;
-    }
-    .msg{
-        font-size: 20px;
-        margin: 15px;
-    }
-    
-   
+@media screen and (min-width: 576px) {
+  .card {
+    top: 120px;
+  }
+  .msg {
+    font-size: 20px;
+    margin: 15px;
+  }
+  .m-360px {
+    height: 30vh;
+  }
 }
 
-@media screen and (min-width:768px) {
-    .card{
-    
-        top: 120px;
-    }
-    .msg{
-        font-size: 25px;
-        margin: 15px;
-    }
-    
-   
+@media screen and (min-width: 768px) {
+  .card {
+    top: 120px;
+  }
+  .msg {
+    font-size: 25px;
+    margin: 15px;
+  }
 }
 
-@media screen and (min-width:992px) {
-    .card{
-     
-        top: 200px;
-    }
-    .msg{
-        font-size: 25px;
-      
-    }
-
-    
+@media screen and (min-width: 992px) {
+  .card {
+    top: 200px;
+  }
+  .msg {
+    font-size: 25px;
+  }
 }

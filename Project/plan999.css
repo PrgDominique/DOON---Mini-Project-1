@@ -29,6 +29,8 @@
   #desktop {
     display: none;
   }
+ 
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -45,6 +47,9 @@
   #mobile {
     display: none;
   }
+  .m-plan{
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .cs-box {
@@ -54,6 +59,9 @@
   .btn-plan {
     height: 5rem;
   }
+  .m-plan{
+    height: 70vh;
+  }
 }
 @media screen and (min-width: 576px) {
   .cs-box {
@@ -62,6 +70,9 @@
 
   .btn-plan {
     height: 5rem;
+  }
+  .m-plan{
+    height: 120vh;
   }
 }
 @media screen and (max-width: 575px) {
@@ -76,6 +87,9 @@
   }
   .btn-plan {
     height: 5rem;
+  }
+  .m-plan{
+    height: 180vh;
   }
 
 }
