@@ -2,11 +2,29 @@
     position: relative;
     text-align: center;
 }
-.msg{
-    background: #0D4C92;
+.msgr{
+    background: url("https://cdn.nerdschalk.com/wp-content/uploads/2020/08/add-custom-background-messenger-rooms-759x427.png?width=600");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+.twtr{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTiHufa3mIEGrrgUygzekxTxe27Cv2SEzEF8AImgCwQtA42YfZzoljNCdgmzwYQQAWSPc&usqp=CAU");
+    color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.insta{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6TNmrdCA6X6BCmHsmvC9wAUjim9md8lnJ0g&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+
 }
 .msg:hover{
     background: #25316D;
+    color: white;
 }
 @media screen and (max-width:575px) {
     .card{
